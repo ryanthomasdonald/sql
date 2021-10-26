@@ -44,7 +44,7 @@
 
 -- SELECT COUNT(name) FROM restaurant;
 
--- SELECT COUNT(category) FROM restaurant;
+-- SELECT category, COUNT(category) FROM restaurant GROUP BY category;
 
 -- SELECT category, AVG(stars) FROM restaurant GROUP BY category;
 
